@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="p-4">
+
+      <div class="text-center d-flex">
+         
+        <li ><a routerLinkActive="active-link" routerLink="/DashBoard/{{ info?.id }}" >
+          Dashboard
+        </a></li>
+        <li><a routerLinkActive="active-link" routerLink="/CentreProfil/{{ info?.id }}">
+          Profile
+        </a></li>
+        <li><a routerLinkActive="active-link" routerLink="/CentreService/{{ info?.id.services }}" >
+          Service
+        </a></li>
+        <li><a routerLinkActive="active-link" routerLink="/CentrePromotion/{{ info?.promotions }}" >
+          Promotion
+        </a></li>
+        <li><a routerLinkActive="active-link" routerLink="/CentreReservation/{{ info?.id.reservations }}" >
+          Réservation
+        </a></li>
+        <li><a routerLinkActive="active-link" routerLink="/CentreGallerie/{{ info?.id.photos }}" >
+          Gallerie
+        </a></li>
+  
+      </div>
+    </div>
+</div>
